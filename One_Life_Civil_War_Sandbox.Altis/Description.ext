@@ -1,0 +1,50 @@
+corpseManagerMode = 1;
+corpseLimit = 25;
+corpseRemovalMinTime = 300;
+corpseRemovalMaxTime = 600; 
+
+
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "Victory!";
+		subtitle = "The Rose has withered";
+		description = "Finally, we are free.  Thank you for your service.";
+		
+	};
+	
+	class End2
+	{
+		title = "Athira is lost";
+		subtitle = "Our extinction will happen when we're on our knees.";
+		description = "You are at peace now, the same cannot be said about the survivors.  Thank you for your service.";
+		
+	};
+	
+	class End3
+	{
+		title = "All Good Things...";
+		subtitle = "Thanks for playing One Life - Civil War!";
+		description = "";
+		
+	};
+	
+	class End4
+	{
+		title = "Unprofessional";
+		subtitle = "You had one job.";
+		description = "It's the drivers responsibility to secure their load, not the dock's.  Do your job correctly next time.";
+		
+	};
+	
+	class End5
+	{
+		title = "Pay Your Men";
+		subtitle = "Never get between a man and his money.";
+		description = "You're asking these men to die for you, the least you can do in return is pay them.  ";
+		
+	};
+	
+};
+
